@@ -8,7 +8,7 @@ docker-compuse up -d
 
 For once-off first-time config, run the following command:
 
-     $ docker exec -it docker-metropolis after_install.sh
+     $ docker exec -it os-metropolis-1 after_install.sh
 
 Then respond the questions relate to virtual word : 
 

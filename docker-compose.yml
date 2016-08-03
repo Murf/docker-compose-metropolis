@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  os-metropolis-1:
+    container_name: os-metropolis-1
+    image: murf66/docker-metropolis
+    volumes:
+     - ./OpenSim.ini:/opt/opensim/bin/OpenSim.ini
+     - ./OpenSim.db:/opt/opensim/bin/OpenSim.db
+     - ./Regions/:/opt/opensim/bin/Regions/
+    ports:
+      - "9001:9000"
+      - "9001:9000/udp"
+

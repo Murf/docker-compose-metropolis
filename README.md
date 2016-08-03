@@ -1,6 +1,6 @@
 This is a repository to help you easily run opensimulator for Metropolis persistently
 
-It uses the docker image for Metropolis opensimulator found at https://github.com/Murf/docker-metropolis
+It uses the docker image for Metropolis opensimulator found at https://hub.docker.com/r/murf66/docker-metropolis/
 
 All you need to do is clone this repo and run the following command:
 
